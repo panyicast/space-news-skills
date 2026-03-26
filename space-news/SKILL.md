@@ -239,6 +239,7 @@ For `关注点 / 影响`:
 Read these references as needed:
 
 - `references/search-playbook.md`: source map, search angles, and collection workflow.
+- `references/tool-orchestration.md`: how `space-news`, Tavily, `github-deep-research`, `web_fetch`, `browser`, and `gh` should work together.
 - `references/output-template.md`: fixed Chinese output template.
 - `references/category-guidance.md`: category definitions and tagging hints.
 - `references/no-api-workflow.md`: fallback workflow when no search API key is available.
