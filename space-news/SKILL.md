@@ -222,7 +222,8 @@ For `关注点 / 影响`:
 2. Identify the user’s optional focus, if any, such as a region, organization, or subdomain.
 3. Expand the search space first: split long date ranges into smaller windows and split broad themes into topic clusters.
 4. Search for candidate items across official, academic, open-source, and media sources.
-5. Run at least one search pass aimed specifically at papers / preprints and at least one pass aimed specifically at GitHub / open-source when the topic involves 航天 AI, 遥感 AI, or research trends.
+5. When the brief includes open-source projects, GitHub ecosystems, or repository-driven technology signals, optionally use `github-deep-research` as one analysis pass for selected repositories after initial discovery.
+6. Run at least one search pass aimed specifically at papers / preprints and at least one pass aimed specifically at GitHub / open-source when the topic involves 航天 AI, 遥感 AI, or research trends.
 6. When possible, add one discovery pass from social/video surfaces such as X or YouTube for conference briefings, launch briefings, demos, and official talks, then confirm against stronger sources.
 7. Remove duplicates and low-value items.
 8. Keep only items with clear space relevance.
