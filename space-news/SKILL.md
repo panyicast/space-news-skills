@@ -53,6 +53,8 @@ Default source mix for meaningful coverage should span multiple source families 
 - 开源平台：GitHub 仓库、项目主页、模型页、发布说明。
 - 社交与视频信号：X、YouTube、机构官方频道、任务简报视频，仅作为补充线索或交叉验证来源。
 
+Prefer Tavily as the default search discovery layer when Brave Search is unavailable or not configured. Brave Search is optional and can be used as an additional discovery source, not a required dependency.
+
 Do not treat Tavily, Brave, or any other single search surface as the only information source. Search APIs are discovery tools, not the final source base.
 
 When multiple sources exist, prefer the original source page and keep at least one direct source link in the final brief.
