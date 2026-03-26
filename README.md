@@ -1,9 +1,10 @@
 # Space News Skills
 
-这是一套围绕 `space-news` 工作流整理出来的技能仓库，当前主要包含两个技能：
+这是一套围绕 `space-news` 工作流整理出来的技能仓库，当前主要包含三个技能：
 
 - `space-news`
 - `wechat-space-news-draft`
+- `github-deep-research`（已按当前环境做过适配）
 
 仓库目标不是单独保存几个 `SKILL.md` 文件，而是把一整套可维护的航天情报生产链路沉淀下来，包括：
 - 搜索原则
