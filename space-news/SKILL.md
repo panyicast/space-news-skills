@@ -223,7 +223,9 @@ For `关注点 / 影响`:
 3. Expand the search space first: split long date ranges into smaller windows and split broad themes into topic clusters.
 4. Search for candidate items across official, academic, open-source, and media sources.
 5. When the brief includes open-source projects, GitHub ecosystems, or repository-driven technology signals, optionally use `github-deep-research` as one analysis pass for selected repositories after initial discovery.
-6. Run at least one search pass aimed specifically at papers / preprints and at least one pass aimed specifically at GitHub / open-source when the topic involves 航天 AI, 遥感 AI, or research trends.
+6. Use `github-deep-research` selectively, not routinely. It is most appropriate when a repository is clearly important, fast-growing, strategically relevant, technically ambiguous, or likely to benefit from commit / issue / PR timeline analysis.
+7. Do not use `github-deep-research` as the sole basis for a brief item. Merge its findings with official docs, repository pages, release notes, papers, project websites, or media coverage where available.
+8. Run at least one search pass aimed specifically at papers / preprints and at least one pass aimed specifically at GitHub / open-source when the topic involves 航天 AI, 遥感 AI, or research trends.
 6. When possible, add one discovery pass from social/video surfaces such as X or YouTube for conference briefings, launch briefings, demos, and official talks, then confirm against stronger sources.
 7. Remove duplicates and low-value items.
 8. Keep only items with clear space relevance.
@@ -288,3 +290,4 @@ uv run python scripts/space_news_brief.py --input references/enriched_candidates
 - Unless the user asks otherwise, optimize for high-signal recent developments rather than exhaustive completeness.
 - When a result set is crowded, prefer quality over quantity even if the nominal target is 20 items.
 - See `examples/weekly-brief-example.md` for a concrete example of the expected final writing style and structure.
+expected final writing style and structure.
